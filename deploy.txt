@@ -1,0 +1,90 @@
+2_deploy_hasher.js
+==================
+
+   Deploying 'Hasher'
+   ------------------
+   > transaction hash:    0x47282b956efd6049a34c09a6af4c97f0e34667b5f23aefe1a62d4d429a39e5d4
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x3B29e0Ceb0EF42d428f2f0762c15bc15F66D7aae
+   > block number:        1713643
+   > block timestamp:     1697709543
+   > account:             0x1bc996F1A9af4F7b90e703D8e0c13995442d13EF
+   > balance:             0.996974447536538261
+   > gas used:            2438906 (0x2536fa)
+   > gas price:           1.2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0029266872 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:        0.0029266872 ETH
+
+
+3_deploy_verifier.js
+====================
+
+   Deploying 'Verifier'
+   --------------------
+   > transaction hash:    0x9b2c9e7bb7cf8613038b45c0fc276e991a295f49dbc7318c482ab20052973973
+   > Blocks: 2            Seconds: 4
+   > contract address:    0xA4933c0475D014212210909089dBe25e7539D83D
+   > block number:        1713645
+   > block timestamp:     1697709549
+   > account:             0x1bc996F1A9af4F7b90e703D8e0c13995442d13EF
+   > balance:             0.995940867093173643
+   > gas used:            835474 (0xcbf92)
+   > gas price:           1.2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0010025688 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:        0.0010025688 ETH
+
+   
+
+   4_deploy_eth_tornado.js
+=======================
+
+   Deploying 'ETHTornado'
+   ----------------------
+   > transaction hash:    0x3babb9a9f5dae17b29aa27058329ab471c0108d5ca9420114f411986c1abaadb
+   > Blocks: 2            Seconds: 4
+   > contract address:    0x15579a94E6896204Ded100CB29aD7dDe0bB1F0C1
+   > block number:        1714055
+   > block timestamp:     1697711004
+   > account:             0x1bc996F1A9af4F7b90e703D8e0c13995442d13EF
+   > balance:             0.99073598879772315
+   > gas used:            2025908 (0x1ee9b4)
+   > gas price:           1.2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0024310896 ETH
+
+ETHTornado address 0x15579a94E6896204Ded100CB29aD7dDe0bB1F0C1
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:        0.0024310896 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.0024310896 ETH
+
+node src/cli.js deposit ETH 0.1 --rpc https://misty-boldest-friday.scroll-testnet.quiknode.pro/b9fbb236e045d50b927b91eb90fc9d4d050be676/
+
+Your note: tornado-eth-0.1-534351-0xa1d91bc6e5cd1413d980a68978ddda759d7d6456fbdfd70f226ed24d41286d7d63e869da9400aaca6fdedc8ab1a2721b35c218f16ab01c21288f586fefdd
+Tornado ETH balance is 0
+0x1bc996F1A9af4F7b90e703D8e0c13995442d13EF
+Sender account ETH balance is 0.686153504755413117
+Submitting deposit transaction
+Tornado ETH balance is 0.1
+Sender account ETH balance is 0.585057035955328799
+
+node src/cli.js withdraw tornado-eth-0.1-534351-0xa1d91bc6e5cd1413d980a68978ddda759d7d6456fbdfd70f226ed24d41286d7d63e869da9400aaca6fdedc8ab1a2721b35c218f16ab01c21288f586fefdd 0x1bc996F1A9af4F7b90e703D8e0c13995442d13EF --rpc https://misty-boldest-friday.scroll-testnet.quiknode.pro/b9fbb236e045d50b927b91eb90fc9d4d050be676/
+
+Getting current state from tornado contract
+Generating SNARK proof
+Proof time: 6.270s
+Submitting withdraw transaction
+The transaction hash is 0x549e9e6bf8cf0673beb1d77bb492d75d03c151b58a88edb9dbb1c7309c8e6bd7
+Done
